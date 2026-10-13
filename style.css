@@ -81,7 +81,9 @@ a {
     color: white;
     border: none;
     padding: 8px 32px;
-    border-radius: 5%;
+    border-radius: 8px;
+    font-weight: 800;
+    cursor: pointer;
 }
 
 .info-container {
