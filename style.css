@@ -129,3 +129,29 @@ a {
 .text {
     text-align: center;
 }
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 70px 0;
+    margin: 40px 0;
+}
+
+.quote-text {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-author {
+    margin: 12px 0;
+    font-weight: bold;
+    font-size: 16px;
+    align-self: flex-end;
+}
