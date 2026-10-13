@@ -141,7 +141,7 @@ a {
 }
 
 .quote-text {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 300;
     font-style: italic;
 }
@@ -149,12 +149,13 @@ a {
 .quote-content {
     display: flex;
     flex-direction: column;
+    max-width: 800px;
 }
 
 .quote-author {
     margin: 12px 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
     align-self: flex-end;
 }
 
