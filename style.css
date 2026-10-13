@@ -200,3 +200,11 @@ a {
     font-weight: bold;
     cursor: pointer;
 }
+
+.footer-container {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    padding: 32px 0;
+}
