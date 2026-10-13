@@ -155,3 +155,45 @@ a {
     font-size: 16px;
     align-self: flex-end;
 }
+
+.cta-container {
+    padding: 60px 0;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 48px 120px;
+    color: white;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cta-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    background-color: transparent;
+    color: white;
+    border: solid white 2px;
+    padding: 4px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
