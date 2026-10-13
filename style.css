@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
 * {
+    box-sizing: border-box;
     /* border: solid red 1px; */
 }
 
 body {
+    font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -28,8 +32,10 @@ a {
 
 .header-container {
     display: flex;
-    justify-content: space-around;
-    padding: 16px;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 16px 0;
 }
 
 .header {
@@ -39,14 +45,17 @@ a {
 .header-links {
     display: flex;
     gap: 8px;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
 .hero-container {
+    margin: 0 auto;
     margin-top: 84px;
+    margin-bottom: 48px;
+    max-width: 1024px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .hero-left-content {
@@ -65,6 +74,16 @@ a {
     color: #E5E7EB;
 }
 
+.signup {
+    margin: 8px 0;
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 5%;
+}
+
 .info-container {
     display: flex;
     flex-direction: column;
@@ -76,7 +95,9 @@ a {
     align-items: center;
     /* flex: 1; */
     padding: 12px;
-    font-size: 48px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .info-cards {
@@ -85,11 +106,24 @@ a {
     justify-content: center;
     /* flex-wrap: wrap; */
     flex-direction: row;
-    gap: 12px;
+    gap: 48px;
 }
 
 .card {
     width: 160px;
-    padding: 8px;
-    border: 1px solid black;
+    height: 160px;
+    /* padding: 8px; */
+    border: solid #3882F6 3px;
+    border-radius: 5%;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+}
+
+.text {
+    text-align: center;
 }
