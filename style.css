@@ -89,6 +89,7 @@ a {
 .info-container {
     display: flex;
     flex-direction: column;
+    margin: 24px 0;
 }
 
 .info-header{
@@ -103,6 +104,7 @@ a {
 }
 
 .info-cards {
+    margin: 16px 0;
     display: flex;
     align-items: center;
     justify-content: center;
